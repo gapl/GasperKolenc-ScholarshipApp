@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFB3919718F1B08800CD43CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB3919618F1B08800CD43CB /* Foundation.framework */; };
+		BFB3919918F1B08800CD43CB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB3919818F1B08800CD43CB /* CoreGraphics.framework */; };
+		BFB3919B18F1B08800CD43CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB3919A18F1B08800CD43CB /* UIKit.framework */; };
+		BFB391A118F1B08800CD43CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFB3919F18F1B08800CD43CB /* InfoPlist.strings */; };
+		BFB391A318F1B08800CD43CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB391A218F1B08800CD43CB /* main.m */; };
+		BFB391A718F1B08800CD43CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB391A618F1B08800CD43CB /* AppDelegate.m */; };
+		BFB391AA18F1B08800CD43CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB391A818F1B08800CD43CB /* Main.storyboard */; };
+		BFB391AD18F1B08800CD43CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB391AC18F1B08800CD43CB /* ViewController.m */; };
+		BFB391AF18F1B08800CD43CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFB391AE18F1B08800CD43CB /* Images.xcassets */; };
+		BFB391B618F1B08800CD43CB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB391B518F1B08800CD43CB /* XCTest.framework */; };
+		BFB391B718F1B08800CD43CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB3919618F1B08800CD43CB /* Foundation.framework */; };
+		BFB391B818F1B08800CD43CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB3919A18F1B08800CD43CB /* UIKit.framework */; };
+		BFB391C018F1B08800CD43CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFB391BE18F1B08800CD43CB /* InfoPlist.strings */; };
+		BFB391C218F1B08800CD43CB /* Gasper_KolencTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB391C118F1B08800CD43CB /* Gasper_KolencTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFB391B918F1B08800CD43CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFB3918B18F1B08800CD43CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFB3919218F1B08800CD43CB;
+			remoteInfo = "Gasper Kolenc";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFB3919318F1B08800CD43CB /* Gasper Kolenc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gasper Kolenc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFB3919618F1B08800CD43CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BFB3919818F1B08800CD43CB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BFB3919A18F1B08800CD43CB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BFB3919E18F1B08800CD43CB /* Gasper Kolenc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Gasper Kolenc-Info.plist"; sourceTree = "<group>"; };
+		BFB391A018F1B08800CD43CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BFB391A218F1B08800CD43CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFB391A418F1B08800CD43CB /* Gasper Kolenc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Gasper Kolenc-Prefix.pch"; sourceTree = "<group>"; };
+		BFB391A518F1B08800CD43CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BFB391A618F1B08800CD43CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BFB391A918F1B08800CD43CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFB391AB18F1B08800CD43CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BFB391AC18F1B08800CD43CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BFB391AE18F1B08800CD43CB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BFB391B418F1B08800CD43CB /* Gasper KolencTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gasper KolencTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFB391B518F1B08800CD43CB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BFB391BD18F1B08800CD43CB /* Gasper KolencTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Gasper KolencTests-Info.plist"; sourceTree = "<group>"; };
+		BFB391BF18F1B08800CD43CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BFB391C118F1B08800CD43CB /* Gasper_KolencTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Gasper_KolencTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFB3919018F1B08800CD43CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB3919918F1B08800CD43CB /* CoreGraphics.framework in Frameworks */,
+				BFB3919B18F1B08800CD43CB /* UIKit.framework in Frameworks */,
+				BFB3919718F1B08800CD43CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB391B118F1B08800CD43CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB391B618F1B08800CD43CB /* XCTest.framework in Frameworks */,
+				BFB391B818F1B08800CD43CB /* UIKit.framework in Frameworks */,
+				BFB391B718F1B08800CD43CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFB3918A18F1B08800CD43CB = {
+			isa = PBXGroup;
+			children = (
+				BFB3919C18F1B08800CD43CB /* Gasper Kolenc */,
+				BFB391BB18F1B08800CD43CB /* Gasper KolencTests */,
+				BFB3919518F1B08800CD43CB /* Frameworks */,
+				BFB3919418F1B08800CD43CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFB3919418F1B08800CD43CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFB3919318F1B08800CD43CB /* Gasper Kolenc.app */,
+				BFB391B418F1B08800CD43CB /* Gasper KolencTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFB3919518F1B08800CD43CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFB3919618F1B08800CD43CB /* Foundation.framework */,
+				BFB3919818F1B08800CD43CB /* CoreGraphics.framework */,
+				BFB3919A18F1B08800CD43CB /* UIKit.framework */,
+				BFB391B518F1B08800CD43CB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFB3919C18F1B08800CD43CB /* Gasper Kolenc */ = {
+			isa = PBXGroup;
+			children = (
+				BFB391A518F1B08800CD43CB /* AppDelegate.h */,
+				BFB391A618F1B08800CD43CB /* AppDelegate.m */,
+				BFB391A818F1B08800CD43CB /* Main.storyboard */,
+				BFB391AB18F1B08800CD43CB /* ViewController.h */,
+				BFB391AC18F1B08800CD43CB /* ViewController.m */,
+				BFB391AE18F1B08800CD43CB /* Images.xcassets */,
+				BFB3919D18F1B08800CD43CB /* Supporting Files */,
+			);
+			path = "Gasper Kolenc";
+			sourceTree = "<group>";
+		};
+		BFB3919D18F1B08800CD43CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFB3919E18F1B08800CD43CB /* Gasper Kolenc-Info.plist */,
+				BFB3919F18F1B08800CD43CB /* InfoPlist.strings */,
+				BFB391A218F1B08800CD43CB /* main.m */,
+				BFB391A418F1B08800CD43CB /* Gasper Kolenc-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFB391BB18F1B08800CD43CB /* Gasper KolencTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFB391C118F1B08800CD43CB /* Gasper_KolencTests.m */,
+				BFB391BC18F1B08800CD43CB /* Supporting Files */,
+			);
+			path = "Gasper KolencTests";
+			sourceTree = "<group>";
+		};
+		BFB391BC18F1B08800CD43CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFB391BD18F1B08800CD43CB /* Gasper KolencTests-Info.plist */,
+				BFB391BE18F1B08800CD43CB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFB3919218F1B08800CD43CB /* Gasper Kolenc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFB391C518F1B08800CD43CB /* Build configuration list for PBXNativeTarget "Gasper Kolenc" */;
+			buildPhases = (
+				BFB3918F18F1B08800CD43CB /* Sources */,
+				BFB3919018F1B08800CD43CB /* Frameworks */,
+				BFB3919118F1B08800CD43CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gasper Kolenc";
+			productName = "Gasper Kolenc";
+			productReference = BFB3919318F1B08800CD43CB /* Gasper Kolenc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFB391B318F1B08800CD43CB /* Gasper KolencTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFB391C818F1B08800CD43CB /* Build configuration list for PBXNativeTarget "Gasper KolencTests" */;
+			buildPhases = (
+				BFB391B018F1B08800CD43CB /* Sources */,
+				BFB391B118F1B08800CD43CB /* Frameworks */,
+				BFB391B218F1B08800CD43CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFB391BA18F1B08800CD43CB /* PBXTargetDependency */,
+			);
+			name = "Gasper KolencTests";
+			productName = "Gasper KolencTests";
+			productReference = BFB391B418F1B08800CD43CB /* Gasper KolencTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFB3918B18F1B08800CD43CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Gasper Kolenc";
+				TargetAttributes = {
+					BFB391B318F1B08800CD43CB = {
+						TestTargetID = BFB3919218F1B08800CD43CB;
+					};
+				};
+			};
+			buildConfigurationList = BFB3918E18F1B08800CD43CB /* Build configuration list for PBXProject "Gasper Kolenc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFB3918A18F1B08800CD43CB;
+			productRefGroup = BFB3919418F1B08800CD43CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFB3919218F1B08800CD43CB /* Gasper Kolenc */,
+				BFB391B318F1B08800CD43CB /* Gasper KolencTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFB3919118F1B08800CD43CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB391AF18F1B08800CD43CB /* Images.xcassets in Resources */,
+				BFB391A118F1B08800CD43CB /* InfoPlist.strings in Resources */,
+				BFB391AA18F1B08800CD43CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB391B218F1B08800CD43CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB391C018F1B08800CD43CB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFB3918F18F1B08800CD43CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB391AD18F1B08800CD43CB /* ViewController.m in Sources */,
+				BFB391A718F1B08800CD43CB /* AppDelegate.m in Sources */,
+				BFB391A318F1B08800CD43CB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB391B018F1B08800CD43CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB391C218F1B08800CD43CB /* Gasper_KolencTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFB391BA18F1B08800CD43CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFB3919218F1B08800CD43CB /* Gasper Kolenc */;
+			targetProxy = BFB391B918F1B08800CD43CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFB3919F18F1B08800CD43CB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFB391A018F1B08800CD43CB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BFB391A818F1B08800CD43CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFB391A918F1B08800CD43CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFB391BE18F1B08800CD43CB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFB391BF18F1B08800CD43CB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFB391C318F1B08800CD43CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BFB391C418F1B08800CD43CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFB391C618F1B08800CD43CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gasper Kolenc/Gasper Kolenc-Prefix.pch";
+				INFOPLIST_FILE = "Gasper Kolenc/Gasper Kolenc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BFB391C718F1B08800CD43CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gasper Kolenc/Gasper Kolenc-Prefix.pch";
+				INFOPLIST_FILE = "Gasper Kolenc/Gasper Kolenc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BFB391C918F1B08800CD43CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Gasper Kolenc.app/Gasper Kolenc";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gasper Kolenc/Gasper Kolenc-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Gasper KolencTests/Gasper KolencTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BFB391CA18F1B08800CD43CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Gasper Kolenc.app/Gasper Kolenc";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gasper Kolenc/Gasper Kolenc-Prefix.pch";
+				INFOPLIST_FILE = "Gasper KolencTests/Gasper KolencTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFB3918E18F1B08800CD43CB /* Build configuration list for PBXProject "Gasper Kolenc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB391C318F1B08800CD43CB /* Debug */,
+				BFB391C418F1B08800CD43CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFB391C518F1B08800CD43CB /* Build configuration list for PBXNativeTarget "Gasper Kolenc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB391C618F1B08800CD43CB /* Debug */,
+				BFB391C718F1B08800CD43CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFB391C818F1B08800CD43CB /* Build configuration list for PBXNativeTarget "Gasper KolencTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB391C918F1B08800CD43CB /* Debug */,
+				BFB391CA18F1B08800CD43CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFB3918B18F1B08800CD43CB /* Project object */;
+}
