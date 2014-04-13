@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Icon</key>
+		<string>ObjCIcon</string>
+		<key>Title</key>
+		<string>Objective-C</string>
+	</dict>
+	<dict>
+		<key>Icon</key>
+		<string>JavaIcon</string>
+		<key>Title</key>
+		<string>Java</string>
+	</dict>
+	<dict>
+		<key>Icon</key>
+		<string>HTMLIcon</string>
+		<key>Title</key>
+		<string>HTML &amp; CSS</string>
+	</dict>
+	<dict>
+		<key>Icon</key>
+		<string>JSIcon</string>
+		<key>Title</key>
+		<string>JavaScript</string>
+	</dict>
+	<dict>
+		<key>Icon</key>
+		<string>phpIcon</string>
+		<key>Title</key>
+		<string>PHP</string>
+	</dict>
+	<dict>
+		<key>Icon</key>
+		<string>PhotoshopIcon</string>
+		<key>Title</key>
+		<string>Adobe Photoshop</string>
+	</dict>
+	<dict>
+		<key>Icon</key>
+		<string>SketchIcon</string>
+		<key>Title</key>
+		<string>Sketch</string>
+	</dict>
+	<dict>
+		<key>Icon</key>
+		<string>BlenderIcon</string>
+		<key>Title</key>
+		<string>Blender</string>
+	</dict>
+	<dict>
+		<key>Icon</key>
+		<string>UnityIcon</string>
+		<key>Title</key>
+		<string>Unity</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Items</key>
+		<array>
+			<dict>
+				<key>Identifier</key>
+				<string>MeHeaderCell</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Items</key>
+		<array>
+			<dict>
+				<key>Identifier</key>
+				<string>MeDetailCell</string>
+				<key>Title</key>
+				<string>Email</string>
+				<key>Detail</key>
+				<string>kolenc.gasper@gmail.com</string>
+			</dict>
+			<dict>
+				<key>Identifier</key>
+				<string>MeDetailCell</string>
+				<key>Title</key>
+				<string>Phone</string>
+				<key>Detail</key>
+				<string>+386 31 741 383</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Items</key>
+		<array>
+			<dict>
+				<key>Identifier</key>
+				<string>MeDetailCell</string>
+				<key>Title</key>
+				<string>Born</string>
+				<key>Detail</key>
+				<string>06/28/1991</string>
+			</dict>
+			<dict>
+				<key>Identifier</key>
+				<string>MeDetailCell</string>
+				<key>Title</key>
+				<string>Nationality</string>
+				<key>Detail</key>
+				<string>Slovenian</string>
+			</dict>
+		</array>
+		<key>Title</key>
+		<string>Personal Details</string>
+	</dict>
+	<dict>
+		<key>Items</key>
+		<array>
+			<dict>
+				<key>Identifier</key>
+				<string>MeDescriptionCell</string>
+				<key>Text</key>
+				<string>I have more than 3 years of experience in iOS development and have released 8 applications on the App Store. Together they have accumulated almost a million downloads. Furthermore, I have 4 years of experience in web design and development. I work well either alone or with a group and have worked on large projects with public releases.</string>
+			</dict>
+		</array>
+		<key>Title</key>
+		<string>Summary</string>
+	</dict>
+	<dict>
+		<key>Items</key>
+		<array>
+			<dict>
+				<key>Identifier</key>
+				<string>MeDetailCell</string>
+				<key>Title</key>
+				<string>2013</string>
+				<key>Detail</key>
+				<string>Faculty of Computer and Information Science, University of Ljubljana</string>
+			</dict>
+			<dict>
+				<key>Identifier</key>
+				<string>MeDetailCell</string>
+				<key>Title</key>
+				<string>2010</string>
+				<key>Detail</key>
+				<string>Bežigrad Gymnasium, Slovenia</string>
+			</dict>
+		</array>
+		<key>Title</key>
+		<string>Education</string>
+	</dict>
+	<dict>
+		<key>Items</key>
+		<array>
+			<dict>
+				<key>Identifier</key>
+				<string>MeEmploymentCell</string>
+				<key>Title</key>
+				<string>02/2012 08/2011</string>
+				<key>Detail</key>
+				<string>Renderspace d.o.o.\nWeb developer</string>
+			</dict>
+		</array>
+		<key>Title</key>
+		<string>Employment History</string>
+	</dict>
+</array>
+</plist>

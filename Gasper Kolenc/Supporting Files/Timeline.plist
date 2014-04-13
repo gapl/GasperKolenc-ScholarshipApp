@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Title</key>
+		<string>And so it begins...</string>
+		<key>Date</key>
+		<string>22 years ago, Ljubljana, Slovenia</string>
+		<key>Caption</key>
+		<string>I was born in a small country in central Europe. My birth coincided with the war for Slovenian independence.</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>My first computer</string>
+		<key>Date</key>
+		<string>16 years ago, Grosuplje, Slovenia</string>
+		<key>Caption</key>
+		<string>I got my first PC at age 6. It was my parent&apos;s gift to me for New Year&apos;s Eve and it ran Microsoft Windows 95.</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Rock star phase? Check!</string>
+		<key>Date</key>
+		<string>8 years ago, Grosuplje, Slovenia</string>
+		<key>Caption</key>
+		<string>I finished primary school with the highest GPA possible and was awarded a scholarship for gifted students.</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Finally got a MacBook, yay!</string>
+		<key>Date</key>
+		<string>6 years ago, Ljubljana, Slovenia</string>
+		<key>Caption</key>
+		<string>My first interaction with a Mac was in my high school years and it drove me into iOS development.</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Love is in the air &lt;3</string>
+		<key>Date</key>
+		<string>5 years ago, Domžale, Slovenia</string>
+		<key>Caption</key>
+		<string>Sabina, my girlfriend of 5 years, supports me at everything I do and sticks with me through my all-nighters.</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Mom, don&apos;t look so surprised!</string>
+		<key>Date</key>
+		<string>4 years ago, Ljubljana, Slovenia</string>
+		<key>Caption</key>
+		<string>I graduated from one of the best high schools in my country while still maintaining my Zois scholarship.</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Let&apos;s make an app!</string>
+		<key>Date</key>
+		<string>3 years ago, Grosuplje, Slovenia</string>
+		<key>Caption</key>
+		<string>I released my first iOS app only a few months after I started to learn how to programme.</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Users just keep on coming</string>
+		<key>Date</key>
+		<string>2 years ago, Grosuplje, Slovenia</string>
+		<key>Caption</key>
+		<string>Downloads of my apps started to grow and my user base quickly grew over half a million users in just a few months.</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>First time in California!</string>
+		<key>Date</key>
+		<string>1 year ago, San Francisco, CA</string>
+		<key>Caption</key>
+		<string>I visited California and I was amazed! I can&apos;t wait to go across the pond again.</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>So... What do I do now?</string>
+		<key>Date</key>
+		<string>Just now, Grosuplje, Slovenia</string>
+		<key>Caption</key>
+		<string>Currently, I&apos;m involved with two startups, still working on my own apps and getting my masters degree.</string>
+	</dict>
+</array>
+</plist>

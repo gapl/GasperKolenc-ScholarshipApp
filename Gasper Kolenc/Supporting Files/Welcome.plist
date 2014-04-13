@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Description</key>
+		<string>Welcome to my WWDC app!</string>
+		<key>Image</key>
+		<string>Welcome1</string>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>Take a look through my timeline by scrolling up and down</string>
+		<key>Image</key>
+		<string>Welcome2</string>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>Scroll to the left to reveal the side menu</string>
+		<key>Image</key>
+		<string>Welcome3</string>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>I hope you will enjoy this short glimpse into my life</string>
+		<key>Bold</key>
+		<array>
+			<string>Shop</string>
+			<string>Drop</string>
+		</array>
+		<key>Image</key>
+		<string>Welcome4</string>
+	</dict>
+</array>
+</plist>

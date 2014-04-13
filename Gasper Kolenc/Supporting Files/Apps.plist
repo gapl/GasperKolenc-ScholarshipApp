@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Icon</key>
+		<string>BallantinesIcon</string>
+		<key>Title</key>
+		<string>Ballantine&apos;s</string>
+		<key>Description</key>
+		<string>This was an app I made for Pernod Ricard to promote their Ballantine&apos;s brand. It was made for marketing purposes and is thus not present in the App Store. The user took a photo of a person through the app, usually at specific events, and the app filtered it to appear cartoonish - these photos were then presented on Facebook.</string>
+	</dict>
+	<dict>
+		<key>Icon</key>
+		<string>HEIcon</string>
+		<key>Title</key>
+		<string>The House of e-Xperiments</string>
+		<key>Description</key>
+		<string>I made this app for Hiša Eksperimentov, a science center in Slovenia, and it was part-financed by the EU&apos;s regional development fund. It allows the user to perform hands-on experiments on experiments physically located in Hiša Eksperimentov from the comfort of their home through remote access.</string>
+		<key>AppID</key>
+		<real>695115254</real>
+	</dict>
+	<dict>
+		<key>Icon</key>
+		<string>NailDesignsIcon</string>
+		<key>Title</key>
+		<string>Nail Designs</string>
+		<key>Description</key>
+		<string>With the release of Nail Designs my development career started to get serious. It is my most succesfull app up to date and is still going strong - at one time it ranked in the top 5 lifestyle apps in 20 countries and has gathered over 700.000 downloads so far. It features manicure tutorials that anyone can make at home.</string>
+		<key>AppID</key>
+		<integer>492114299</integer>
+	</dict>
+	<dict>
+		<key>Icon</key>
+		<string>MakeupDesignsIcon</string>
+		<key>Title</key>
+		<string>Makeup Designs</string>
+		<key>Description</key>
+		<string>Ever growing Nail Designs&apos; user base has convinced me to continue in its niche so I released a new sister app to Nail Designs last year called Makeup Designs. It consists of makeup tutorials and is similar in design to Nail Designs.</string>
+		<key>AppID</key>
+		<integer>568405095</integer>
+	</dict>
+	<dict>
+		<key>Icon</key>
+		<string>HairDesignsIcon</string>
+		<key>Title</key>
+		<string>Hair Designs</string>
+		<key>Description</key>
+		<string>As Nail Designs&apos; and Makeup Designs&apos; download numbers were still growing, I decided to expand my number of beauty apps and create a brand, under which I would release my lifestyle apps - I called it Beauty Center Apps. Hair Designs was the third addition to Beauty Center and it features hair design tutorials.</string>
+		<key>AppID</key>
+		<integer>718120941</integer>
+	</dict>
+	<dict>
+		<key>Icon</key>
+		<string>JewelryDesignsIcon</string>
+		<key>Title</key>
+		<string>Jewelry Designs</string>
+		<key>Description</key>
+		<string>This app is the latest addition to my collection of Beauty Center Apps and it features tutorials on how to design your own jewelry - from bracelets to earrings and even some shirts. It gathered much praise since its release and has received quite a few good reviews.</string>
+		<key>AppID</key>
+		<integer>741773896</integer>
+	</dict>
+	<dict>
+		<key>Icon</key>
+		<string>PPIcon</string>
+		<key>Title</key>
+		<string>Pocket Pal</string>
+		<key>Description</key>
+		<string>Pocket Pal was my first try at an entertainment app and was actually featured by Apple in the New and Noteworthy section. It&apos;s a nice little app to have you busy for 5 minutes when you have nothing to do. Sadly, I now consider it a failure for not reaching my expectations.</string>
+		<key>AppID</key>
+		<integer>505554625</integer>
+	</dict>
+	<dict>
+		<key>Icon</key>
+		<string>ReasonsIcon</string>
+		<key>Title</key>
+		<string>Reasons</string>
+		<key>Description</key>
+		<string>I first made this app for my girlfriend&apos;s birthday. By seeing her positive reaction, I thought it would be a great app for other couples out there, so I modified the code and released it a couple of days later. It&apos;s a really simple app that animates love phrases of your choosing.</string>
+		<key>AppID</key>
+		<integer>457872363</integer>
+	</dict>
+	<dict>
+		<key>Icon</key>
+		<string>MMIcon</string>
+		<key>Title</key>
+		<string>Makeup Magic</string>
+		<key>Description</key>
+		<string>Makeup Magic is the first app I ever made - with a half a year of learning how to programme behind me and no design skill whatsoever. It&apos;s not an app that excels (understandingly, given my experience at the time) but it marks the start of my iOS developing career and that must count for something!</string>
+		<key>AppID</key>
+		<real>455232610</real>
+	</dict>
+</array>
+</plist>

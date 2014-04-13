@@ -7,52 +7,99 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF2D445518F33EE000BCD955 /* CaptionLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D444E18F33EE000BCD955 /* CaptionLabel.m */; };
+		BF2D445618F33EE000BCD955 /* MeDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D445018F33EE000BCD955 /* MeDetailCell.m */; };
+		BF2D445718F33EE000BCD955 /* RoundedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D445218F33EE000BCD955 /* RoundedButton.m */; };
+		BF2D445818F33EE000BCD955 /* SideMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D445418F33EE000BCD955 /* SideMenuCell.m */; };
+		BF2D446718F33F0A00BCD955 /* ContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D445A18F33F0A00BCD955 /* ContainerViewController.m */; };
+		BF2D446818F33F0A00BCD955 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D445C18F33F0A00BCD955 /* MeViewController.m */; };
+		BF2D446918F33F0A00BCD955 /* SideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D445E18F33F0A00BCD955 /* SideMenuViewController.m */; };
+		BF2D446A18F33F0A00BCD955 /* StackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D446018F33F0A00BCD955 /* StackViewController.m */; };
+		BF2D446B18F33F0A00BCD955 /* TileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D446218F33F0A00BCD955 /* TileViewController.m */; };
+		BF2D446C18F33F0A00BCD955 /* WelcomeContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D446418F33F0A00BCD955 /* WelcomeContentViewController.m */; };
+		BF2D446D18F33F0A00BCD955 /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D446618F33F0A00BCD955 /* WelcomeViewController.m */; };
+		BF2D447818F33F5C00BCD955 /* Me.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF2D447218F33F5C00BCD955 /* Me.plist */; };
+		BF2D447918F33F5C00BCD955 /* SideMenu.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF2D447318F33F5C00BCD955 /* SideMenu.plist */; };
+		BF2D447A18F33F5C00BCD955 /* Timeline.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF2D447418F33F5C00BCD955 /* Timeline.plist */; };
+		BF2D447B18F33F5C00BCD955 /* Welcome.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF2D447518F33F5C00BCD955 /* Welcome.plist */; };
+		BF2D447D18F33F9400BCD955 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D447C18F33F9400BCD955 /* main.m */; };
+		BF2D448918F33FCD00BCD955 /* MFSideMenuContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D448418F33FCD00BCD955 /* MFSideMenuContainerViewController.m */; };
+		BF2D448A18F33FCD00BCD955 /* MFSideMenuShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D448618F33FCD00BCD955 /* MFSideMenuShadow.m */; };
+		BF2D448B18F33FCD00BCD955 /* UIViewController+MFSideMenuAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D448818F33FCD00BCD955 /* UIViewController+MFSideMenuAdditions.m */; };
+		BF2D448E18F3414500BCD955 /* ProjectsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D448D18F3414500BCD955 /* ProjectsViewController.m */; };
+		BF2D449018F348DB00BCD955 /* Skills.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF2D448F18F348DB00BCD955 /* Skills.plist */; };
+		BF2D449218F34BA700BCD955 /* Apps.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF2D449118F34BA700BCD955 /* Apps.plist */; };
+		BF2D449518F3535A00BCD955 /* AppDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D449418F3535A00BCD955 /* AppDetailViewController.m */; };
+		BF2D449718F355B900BCD955 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2D449618F355B900BCD955 /* StoreKit.framework */; };
+		BF2D449A18F3563300BCD955 /* AppCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D449918F3563300BCD955 /* AppCell.m */; };
+		BFA3F68018F2D73700D54EA3 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA3F67F18F2D73700D54EA3 /* MessageUI.framework */; };
 		BFB3919718F1B08800CD43CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB3919618F1B08800CD43CB /* Foundation.framework */; };
 		BFB3919918F1B08800CD43CB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB3919818F1B08800CD43CB /* CoreGraphics.framework */; };
 		BFB3919B18F1B08800CD43CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB3919A18F1B08800CD43CB /* UIKit.framework */; };
 		BFB391A118F1B08800CD43CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFB3919F18F1B08800CD43CB /* InfoPlist.strings */; };
-		BFB391A318F1B08800CD43CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB391A218F1B08800CD43CB /* main.m */; };
 		BFB391A718F1B08800CD43CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB391A618F1B08800CD43CB /* AppDelegate.m */; };
 		BFB391AA18F1B08800CD43CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB391A818F1B08800CD43CB /* Main.storyboard */; };
-		BFB391AD18F1B08800CD43CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB391AC18F1B08800CD43CB /* ViewController.m */; };
 		BFB391AF18F1B08800CD43CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFB391AE18F1B08800CD43CB /* Images.xcassets */; };
-		BFB391B618F1B08800CD43CB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB391B518F1B08800CD43CB /* XCTest.framework */; };
-		BFB391B718F1B08800CD43CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB3919618F1B08800CD43CB /* Foundation.framework */; };
-		BFB391B818F1B08800CD43CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB3919A18F1B08800CD43CB /* UIKit.framework */; };
-		BFB391C018F1B08800CD43CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFB391BE18F1B08800CD43CB /* InfoPlist.strings */; };
-		BFB391C218F1B08800CD43CB /* Gasper_KolencTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB391C118F1B08800CD43CB /* Gasper_KolencTests.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		BFB391B918F1B08800CD43CB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFB3918B18F1B08800CD43CB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BFB3919218F1B08800CD43CB;
-			remoteInfo = "Gasper Kolenc";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		BF2D444D18F33EE000BCD955 /* CaptionLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CaptionLabel.h; path = Views/CaptionLabel.h; sourceTree = "<group>"; };
+		BF2D444E18F33EE000BCD955 /* CaptionLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CaptionLabel.m; path = Views/CaptionLabel.m; sourceTree = "<group>"; };
+		BF2D444F18F33EE000BCD955 /* MeDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MeDetailCell.h; path = Views/MeDetailCell.h; sourceTree = "<group>"; };
+		BF2D445018F33EE000BCD955 /* MeDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MeDetailCell.m; path = Views/MeDetailCell.m; sourceTree = "<group>"; };
+		BF2D445118F33EE000BCD955 /* RoundedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RoundedButton.h; path = Views/RoundedButton.h; sourceTree = "<group>"; };
+		BF2D445218F33EE000BCD955 /* RoundedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RoundedButton.m; path = Views/RoundedButton.m; sourceTree = "<group>"; };
+		BF2D445318F33EE000BCD955 /* SideMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SideMenuCell.h; path = Views/SideMenuCell.h; sourceTree = "<group>"; };
+		BF2D445418F33EE000BCD955 /* SideMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SideMenuCell.m; path = Views/SideMenuCell.m; sourceTree = "<group>"; };
+		BF2D445918F33F0A00BCD955 /* ContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContainerViewController.h; path = Controllers/ContainerViewController.h; sourceTree = "<group>"; };
+		BF2D445A18F33F0A00BCD955 /* ContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContainerViewController.m; path = Controllers/ContainerViewController.m; sourceTree = "<group>"; };
+		BF2D445B18F33F0A00BCD955 /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MeViewController.h; path = Controllers/MeViewController.h; sourceTree = "<group>"; };
+		BF2D445C18F33F0A00BCD955 /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MeViewController.m; path = Controllers/MeViewController.m; sourceTree = "<group>"; };
+		BF2D445D18F33F0A00BCD955 /* SideMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SideMenuViewController.h; path = Controllers/SideMenuViewController.h; sourceTree = "<group>"; };
+		BF2D445E18F33F0A00BCD955 /* SideMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SideMenuViewController.m; path = Controllers/SideMenuViewController.m; sourceTree = "<group>"; };
+		BF2D445F18F33F0A00BCD955 /* StackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StackViewController.h; path = Controllers/StackViewController.h; sourceTree = "<group>"; };
+		BF2D446018F33F0A00BCD955 /* StackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StackViewController.m; path = Controllers/StackViewController.m; sourceTree = "<group>"; };
+		BF2D446118F33F0A00BCD955 /* TileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TileViewController.h; path = Controllers/TileViewController.h; sourceTree = "<group>"; };
+		BF2D446218F33F0A00BCD955 /* TileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TileViewController.m; path = Controllers/TileViewController.m; sourceTree = "<group>"; };
+		BF2D446318F33F0A00BCD955 /* WelcomeContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WelcomeContentViewController.h; path = Controllers/WelcomeContentViewController.h; sourceTree = "<group>"; };
+		BF2D446418F33F0A00BCD955 /* WelcomeContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WelcomeContentViewController.m; path = Controllers/WelcomeContentViewController.m; sourceTree = "<group>"; };
+		BF2D446518F33F0A00BCD955 /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WelcomeViewController.h; path = Controllers/WelcomeViewController.h; sourceTree = "<group>"; };
+		BF2D446618F33F0A00BCD955 /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WelcomeViewController.m; path = Controllers/WelcomeViewController.m; sourceTree = "<group>"; };
+		BF2D446E18F33F5C00BCD955 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = "Supporting Files/Constants.h"; sourceTree = "<group>"; };
+		BF2D447218F33F5C00BCD955 /* Me.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Me.plist; path = "Supporting Files/Me.plist"; sourceTree = "<group>"; };
+		BF2D447318F33F5C00BCD955 /* SideMenu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = SideMenu.plist; path = "Supporting Files/SideMenu.plist"; sourceTree = "<group>"; };
+		BF2D447418F33F5C00BCD955 /* Timeline.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Timeline.plist; path = "Supporting Files/Timeline.plist"; sourceTree = "<group>"; };
+		BF2D447518F33F5C00BCD955 /* Welcome.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Welcome.plist; path = "Supporting Files/Welcome.plist"; sourceTree = "<group>"; };
+		BF2D447C18F33F9400BCD955 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF2D447E18F33FA300BCD955 /* Gasper Kolenc-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Gasper Kolenc-Info.plist"; sourceTree = "<group>"; };
+		BF2D447F18F33FA300BCD955 /* Gasper Kolenc-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Gasper Kolenc-Prefix.pch"; sourceTree = "<group>"; };
+		BF2D448218F33FCD00BCD955 /* MFSideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSideMenu.h; sourceTree = "<group>"; };
+		BF2D448318F33FCD00BCD955 /* MFSideMenuContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSideMenuContainerViewController.h; sourceTree = "<group>"; };
+		BF2D448418F33FCD00BCD955 /* MFSideMenuContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSideMenuContainerViewController.m; sourceTree = "<group>"; };
+		BF2D448518F33FCD00BCD955 /* MFSideMenuShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSideMenuShadow.h; sourceTree = "<group>"; };
+		BF2D448618F33FCD00BCD955 /* MFSideMenuShadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSideMenuShadow.m; sourceTree = "<group>"; };
+		BF2D448718F33FCD00BCD955 /* UIViewController+MFSideMenuAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MFSideMenuAdditions.h"; sourceTree = "<group>"; };
+		BF2D448818F33FCD00BCD955 /* UIViewController+MFSideMenuAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MFSideMenuAdditions.m"; sourceTree = "<group>"; };
+		BF2D448C18F3414500BCD955 /* ProjectsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProjectsViewController.h; path = Controllers/ProjectsViewController.h; sourceTree = "<group>"; };
+		BF2D448D18F3414500BCD955 /* ProjectsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProjectsViewController.m; path = Controllers/ProjectsViewController.m; sourceTree = "<group>"; };
+		BF2D448F18F348DB00BCD955 /* Skills.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Skills.plist; path = "Supporting Files/Skills.plist"; sourceTree = "<group>"; };
+		BF2D449118F34BA700BCD955 /* Apps.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Apps.plist; path = "Supporting Files/Apps.plist"; sourceTree = "<group>"; };
+		BF2D449318F3535A00BCD955 /* AppDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDetailViewController.h; path = Controllers/AppDetailViewController.h; sourceTree = "<group>"; };
+		BF2D449418F3535A00BCD955 /* AppDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDetailViewController.m; path = Controllers/AppDetailViewController.m; sourceTree = "<group>"; };
+		BF2D449618F355B900BCD955 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		BF2D449818F3563300BCD955 /* AppCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppCell.h; path = Views/AppCell.h; sourceTree = "<group>"; };
+		BF2D449918F3563300BCD955 /* AppCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppCell.m; path = Views/AppCell.m; sourceTree = "<group>"; };
+		BFA3F67F18F2D73700D54EA3 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		BFB3919318F1B08800CD43CB /* Gasper Kolenc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gasper Kolenc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFB3919618F1B08800CD43CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BFB3919818F1B08800CD43CB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		BFB3919A18F1B08800CD43CB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		BFB3919E18F1B08800CD43CB /* Gasper Kolenc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Gasper Kolenc-Info.plist"; sourceTree = "<group>"; };
 		BFB391A018F1B08800CD43CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		BFB391A218F1B08800CD43CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BFB391A418F1B08800CD43CB /* Gasper Kolenc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Gasper Kolenc-Prefix.pch"; sourceTree = "<group>"; };
 		BFB391A518F1B08800CD43CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BFB391A618F1B08800CD43CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BFB391A918F1B08800CD43CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BFB391AB18F1B08800CD43CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BFB391AC18F1B08800CD43CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BFB391AE18F1B08800CD43CB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		BFB391B418F1B08800CD43CB /* Gasper KolencTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gasper KolencTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFB391B518F1B08800CD43CB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		BFB391BD18F1B08800CD43CB /* Gasper KolencTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Gasper KolencTests-Info.plist"; sourceTree = "<group>"; };
-		BFB391BF18F1B08800CD43CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		BFB391C118F1B08800CD43CB /* Gasper_KolencTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Gasper_KolencTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,30 +107,86 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF2D449718F355B900BCD955 /* StoreKit.framework in Frameworks */,
+				BFA3F68018F2D73700D54EA3 /* MessageUI.framework in Frameworks */,
 				BFB3919918F1B08800CD43CB /* CoreGraphics.framework in Frameworks */,
 				BFB3919B18F1B08800CD43CB /* UIKit.framework in Frameworks */,
 				BFB3919718F1B08800CD43CB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BFB391B118F1B08800CD43CB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BFB391B618F1B08800CD43CB /* XCTest.framework in Frameworks */,
-				BFB391B818F1B08800CD43CB /* UIKit.framework in Frameworks */,
-				BFB391B718F1B08800CD43CB /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF2D444C18F33E8300BCD955 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				BF2D448118F33FCD00BCD955 /* MFSideMenu */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		BF2D448118F33FCD00BCD955 /* MFSideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				BF2D448218F33FCD00BCD955 /* MFSideMenu.h */,
+				BF2D448318F33FCD00BCD955 /* MFSideMenuContainerViewController.h */,
+				BF2D448418F33FCD00BCD955 /* MFSideMenuContainerViewController.m */,
+				BF2D448518F33FCD00BCD955 /* MFSideMenuShadow.h */,
+				BF2D448618F33FCD00BCD955 /* MFSideMenuShadow.m */,
+				BF2D448718F33FCD00BCD955 /* UIViewController+MFSideMenuAdditions.h */,
+				BF2D448818F33FCD00BCD955 /* UIViewController+MFSideMenuAdditions.m */,
+			);
+			name = MFSideMenu;
+			path = External/MFSideMenu;
+			sourceTree = "<group>";
+		};
+		BF61A82C18F1B7F900D3EF50 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BF2D446518F33F0A00BCD955 /* WelcomeViewController.h */,
+				BF2D446618F33F0A00BCD955 /* WelcomeViewController.m */,
+				BF2D446318F33F0A00BCD955 /* WelcomeContentViewController.h */,
+				BF2D446418F33F0A00BCD955 /* WelcomeContentViewController.m */,
+				BF2D445918F33F0A00BCD955 /* ContainerViewController.h */,
+				BF2D445A18F33F0A00BCD955 /* ContainerViewController.m */,
+				BF2D445F18F33F0A00BCD955 /* StackViewController.h */,
+				BF2D446018F33F0A00BCD955 /* StackViewController.m */,
+				BF2D446118F33F0A00BCD955 /* TileViewController.h */,
+				BF2D446218F33F0A00BCD955 /* TileViewController.m */,
+				BF2D448C18F3414500BCD955 /* ProjectsViewController.h */,
+				BF2D448D18F3414500BCD955 /* ProjectsViewController.m */,
+				BF2D449318F3535A00BCD955 /* AppDetailViewController.h */,
+				BF2D449418F3535A00BCD955 /* AppDetailViewController.m */,
+				BF2D445B18F33F0A00BCD955 /* MeViewController.h */,
+				BF2D445C18F33F0A00BCD955 /* MeViewController.m */,
+				BF2D445D18F33F0A00BCD955 /* SideMenuViewController.h */,
+				BF2D445E18F33F0A00BCD955 /* SideMenuViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		BF61A83318F1B8E200D3EF50 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BF2D444D18F33EE000BCD955 /* CaptionLabel.h */,
+				BF2D444E18F33EE000BCD955 /* CaptionLabel.m */,
+				BF2D444F18F33EE000BCD955 /* MeDetailCell.h */,
+				BF2D445018F33EE000BCD955 /* MeDetailCell.m */,
+				BF2D445118F33EE000BCD955 /* RoundedButton.h */,
+				BF2D445218F33EE000BCD955 /* RoundedButton.m */,
+				BF2D445318F33EE000BCD955 /* SideMenuCell.h */,
+				BF2D445418F33EE000BCD955 /* SideMenuCell.m */,
+				BF2D449818F3563300BCD955 /* AppCell.h */,
+				BF2D449918F3563300BCD955 /* AppCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		BFB3918A18F1B08800CD43CB = {
 			isa = PBXGroup;
 			children = (
 				BFB3919C18F1B08800CD43CB /* Gasper Kolenc */,
-				BFB391BB18F1B08800CD43CB /* Gasper KolencTests */,
 				BFB3919518F1B08800CD43CB /* Frameworks */,
 				BFB3919418F1B08800CD43CB /* Products */,
 			);
@@ -93,7 +196,6 @@
 			isa = PBXGroup;
 			children = (
 				BFB3919318F1B08800CD43CB /* Gasper Kolenc.app */,
-				BFB391B418F1B08800CD43CB /* Gasper KolencTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +203,8 @@
 		BFB3919518F1B08800CD43CB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BF2D449618F355B900BCD955 /* StoreKit.framework */,
+				BFA3F67F18F2D73700D54EA3 /* MessageUI.framework */,
 				BFB3919618F1B08800CD43CB /* Foundation.framework */,
 				BFB3919818F1B08800CD43CB /* CoreGraphics.framework */,
 				BFB3919A18F1B08800CD43CB /* UIKit.framework */,
@@ -114,10 +218,11 @@
 			children = (
 				BFB391A518F1B08800CD43CB /* AppDelegate.h */,
 				BFB391A618F1B08800CD43CB /* AppDelegate.m */,
+				BF61A83318F1B8E200D3EF50 /* Views */,
+				BF61A82C18F1B7F900D3EF50 /* Controllers */,
 				BFB391A818F1B08800CD43CB /* Main.storyboard */,
-				BFB391AB18F1B08800CD43CB /* ViewController.h */,
-				BFB391AC18F1B08800CD43CB /* ViewController.m */,
 				BFB391AE18F1B08800CD43CB /* Images.xcassets */,
+				BF2D444C18F33E8300BCD955 /* External */,
 				BFB3919D18F1B08800CD43CB /* Supporting Files */,
 			);
 			path = "Gasper Kolenc";
@@ -126,28 +231,17 @@
 		BFB3919D18F1B08800CD43CB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				BFB3919E18F1B08800CD43CB /* Gasper Kolenc-Info.plist */,
+				BF2D447518F33F5C00BCD955 /* Welcome.plist */,
+				BF2D447318F33F5C00BCD955 /* SideMenu.plist */,
+				BF2D447418F33F5C00BCD955 /* Timeline.plist */,
+				BF2D447218F33F5C00BCD955 /* Me.plist */,
+				BF2D449118F34BA700BCD955 /* Apps.plist */,
+				BF2D448F18F348DB00BCD955 /* Skills.plist */,
+				BF2D446E18F33F5C00BCD955 /* Constants.h */,
+				BF2D447F18F33FA300BCD955 /* Gasper Kolenc-Prefix.pch */,
+				BF2D447C18F33F9400BCD955 /* main.m */,
+				BF2D447E18F33FA300BCD955 /* Gasper Kolenc-Info.plist */,
 				BFB3919F18F1B08800CD43CB /* InfoPlist.strings */,
-				BFB391A218F1B08800CD43CB /* main.m */,
-				BFB391A418F1B08800CD43CB /* Gasper Kolenc-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		BFB391BB18F1B08800CD43CB /* Gasper KolencTests */ = {
-			isa = PBXGroup;
-			children = (
-				BFB391C118F1B08800CD43CB /* Gasper_KolencTests.m */,
-				BFB391BC18F1B08800CD43CB /* Supporting Files */,
-			);
-			path = "Gasper KolencTests";
-			sourceTree = "<group>";
-		};
-		BFB391BC18F1B08800CD43CB /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				BFB391BD18F1B08800CD43CB /* Gasper KolencTests-Info.plist */,
-				BFB391BE18F1B08800CD43CB /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -172,24 +266,6 @@
 			productReference = BFB3919318F1B08800CD43CB /* Gasper Kolenc.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BFB391B318F1B08800CD43CB /* Gasper KolencTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BFB391C818F1B08800CD43CB /* Build configuration list for PBXNativeTarget "Gasper KolencTests" */;
-			buildPhases = (
-				BFB391B018F1B08800CD43CB /* Sources */,
-				BFB391B118F1B08800CD43CB /* Frameworks */,
-				BFB391B218F1B08800CD43CB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BFB391BA18F1B08800CD43CB /* PBXTargetDependency */,
-			);
-			name = "Gasper KolencTests";
-			productName = "Gasper KolencTests";
-			productReference = BFB391B418F1B08800CD43CB /* Gasper KolencTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -199,8 +275,8 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Gasper Kolenc";
 				TargetAttributes = {
-					BFB391B318F1B08800CD43CB = {
-						TestTargetID = BFB3919218F1B08800CD43CB;
+					BFB3919218F1B08800CD43CB = {
+						DevelopmentTeam = YDS2B4PU77;
 					};
 				};
 			};
@@ -218,7 +294,6 @@
 			projectRoot = "";
 			targets = (
 				BFB3919218F1B08800CD43CB /* Gasper Kolenc */,
-				BFB391B318F1B08800CD43CB /* Gasper KolencTests */,
 			);
 		};
 /* End PBXProject section */
@@ -228,17 +303,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF2D447918F33F5C00BCD955 /* SideMenu.plist in Resources */,
 				BFB391AF18F1B08800CD43CB /* Images.xcassets in Resources */,
+				BF2D449218F34BA700BCD955 /* Apps.plist in Resources */,
+				BF2D447A18F33F5C00BCD955 /* Timeline.plist in Resources */,
+				BF2D449018F348DB00BCD955 /* Skills.plist in Resources */,
 				BFB391A118F1B08800CD43CB /* InfoPlist.strings in Resources */,
+				BF2D447818F33F5C00BCD955 /* Me.plist in Resources */,
+				BF2D447B18F33F5C00BCD955 /* Welcome.plist in Resources */,
 				BFB391AA18F1B08800CD43CB /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BFB391B218F1B08800CD43CB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BFB391C018F1B08800CD43CB /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,29 +322,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFB391AD18F1B08800CD43CB /* ViewController.m in Sources */,
+				BF2D446818F33F0A00BCD955 /* MeViewController.m in Sources */,
+				BF2D446918F33F0A00BCD955 /* SideMenuViewController.m in Sources */,
+				BF2D446B18F33F0A00BCD955 /* TileViewController.m in Sources */,
+				BF2D449A18F3563300BCD955 /* AppCell.m in Sources */,
+				BF2D449518F3535A00BCD955 /* AppDetailViewController.m in Sources */,
+				BF2D446D18F33F0A00BCD955 /* WelcomeViewController.m in Sources */,
+				BF2D446A18F33F0A00BCD955 /* StackViewController.m in Sources */,
+				BF2D448E18F3414500BCD955 /* ProjectsViewController.m in Sources */,
+				BF2D448B18F33FCD00BCD955 /* UIViewController+MFSideMenuAdditions.m in Sources */,
+				BF2D446718F33F0A00BCD955 /* ContainerViewController.m in Sources */,
+				BF2D447D18F33F9400BCD955 /* main.m in Sources */,
+				BF2D448A18F33FCD00BCD955 /* MFSideMenuShadow.m in Sources */,
+				BF2D445818F33EE000BCD955 /* SideMenuCell.m in Sources */,
+				BF2D446C18F33F0A00BCD955 /* WelcomeContentViewController.m in Sources */,
+				BF2D445518F33EE000BCD955 /* CaptionLabel.m in Sources */,
+				BF2D445618F33EE000BCD955 /* MeDetailCell.m in Sources */,
 				BFB391A718F1B08800CD43CB /* AppDelegate.m in Sources */,
-				BFB391A318F1B08800CD43CB /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BFB391B018F1B08800CD43CB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BFB391C218F1B08800CD43CB /* Gasper_KolencTests.m in Sources */,
+				BF2D445718F33EE000BCD955 /* RoundedButton.m in Sources */,
+				BF2D448918F33FCD00BCD955 /* MFSideMenuContainerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		BFB391BA18F1B08800CD43CB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BFB3919218F1B08800CD43CB /* Gasper Kolenc */;
-			targetProxy = BFB391B918F1B08800CD43CB /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		BFB3919F18F1B08800CD43CB /* InfoPlist.strings */ = {
@@ -288,14 +361,6 @@
 				BFB391A918F1B08800CD43CB /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		BFB391BE18F1B08800CD43CB /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BFB391BF18F1B08800CD43CB /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -376,10 +441,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Gasper Kolenc/Gasper Kolenc-Prefix.pch";
 				INFOPLIST_FILE = "Gasper Kolenc/Gasper Kolenc-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "D98BD340-FB5B-4AD8-B249-7FE1AD6C5C28";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -389,51 +458,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Gasper Kolenc/Gasper Kolenc-Prefix.pch";
 				INFOPLIST_FILE = "Gasper Kolenc/Gasper Kolenc-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "28097A13-8F83-4C8F-8736-413B34464A3F";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		BFB391C918F1B08800CD43CB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Gasper Kolenc.app/Gasper Kolenc";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Gasper Kolenc/Gasper Kolenc-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Gasper KolencTests/Gasper KolencTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		BFB391CA18F1B08800CD43CB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Gasper Kolenc.app/Gasper Kolenc";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Gasper Kolenc/Gasper Kolenc-Prefix.pch";
-				INFOPLIST_FILE = "Gasper KolencTests/Gasper KolencTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -456,14 +489,7 @@
 				BFB391C718F1B08800CD43CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		BFB391C818F1B08800CD43CB /* Build configuration list for PBXNativeTarget "Gasper KolencTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BFB391C918F1B08800CD43CB /* Debug */,
-				BFB391CA18F1B08800CD43CB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
