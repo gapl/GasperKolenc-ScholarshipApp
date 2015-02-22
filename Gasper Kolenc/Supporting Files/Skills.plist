@@ -4,6 +4,12 @@
 <array>
 	<dict>
 		<key>Icon</key>
+		<string>SwiftIcon</string>
+		<key>Title</key>
+		<string>Swift</string>
+	</dict>
+	<dict>
+		<key>Icon</key>
 		<string>ObjCIcon</string>
 		<key>Title</key>
 		<string>Objective-C</string>
@@ -49,12 +55,6 @@
 		<string>BlenderIcon</string>
 		<key>Title</key>
 		<string>Blender</string>
-	</dict>
-	<dict>
-		<key>Icon</key>
-		<string>UnityIcon</string>
-		<key>Title</key>
-		<string>Unity</string>
 	</dict>
 </array>
 </plist>

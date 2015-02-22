@@ -32,7 +32,7 @@
     
     // Add blur to overlay view
     UIToolbar *overlayToolbar = [[UIToolbar alloc] initWithFrame:self.headerView.bounds];
-    overlayToolbar.autoresizingMask = UIViewAutoresizingFlexibleHeight;
+    overlayToolbar.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;
     [self.headerView insertSubview:overlayToolbar atIndex:0];
     
     // Round profile image view
@@ -48,7 +48,8 @@
     _captionLabel.text = caption;
     
     // Calculate caption label height
-    CGSize constrainedSize = CGSizeMake(_captionLabel.frame.size.width - 2 * kArrowLeftOffset, CGFLOAT_MAX);
+    CGFloat labelWidth = [UIScreen mainScreen].bounds.size.width - 24.0;
+    CGSize constrainedSize = CGSizeMake(labelWidth - 2 * kArrowLeftOffset, CGFLOAT_MAX);
     CGRect boundingRect = [caption boundingRectWithSize:constrainedSize options:(NSStringDrawingUsesLineFragmentOrigin|NSStringDrawingUsesFontLeading) attributes:@{NSFontAttributeName : _captionLabel.font} context:nil];
     boundingRect.size.height += 21.0; // Add upper and bottom padding
     CGFloat heightDifference = boundingRect.size.height - _captionHeightConstraint.constant;

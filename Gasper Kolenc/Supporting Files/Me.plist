@@ -28,7 +28,7 @@
 				<key>Title</key>
 				<string>Phone</string>
 				<key>Detail</key>
-				<string>+386 31 741 383</string>
+				<string>+49 179 3196821</string>
 			</dict>
 		</array>
 	</dict>
@@ -62,7 +62,7 @@
 				<key>Identifier</key>
 				<string>MeDescriptionCell</string>
 				<key>Text</key>
-				<string>I have more than 3 years of experience in iOS development and have released 8 applications on the App Store. Together they have accumulated almost a million downloads. Furthermore, I have 4 years of experience in web design and development. I work well either alone or with a group and have worked on large projects with public releases.</string>
+				<string>iOS Software Engineer with over 4 years of experience in iOS development and have thus far succesfully released 10+ applications. Was awarded an Apple WWDC Student Scholarship for two consecutive years, in 2013 and 2014, as one of the best young iOS developers worldwide. An effective and positive team player known for contributing effective creative solutions.</string>
 			</dict>
 		</array>
 		<key>Title</key>
@@ -75,7 +75,7 @@
 				<key>Identifier</key>
 				<string>MeDetailCell</string>
 				<key>Title</key>
-				<string>2013</string>
+				<string>2015</string>
 				<key>Detail</key>
 				<string>Faculty of Computer and Information Science, University of Ljubljana</string>
 			</dict>
@@ -97,10 +97,26 @@
 			<dict>
 				<key>Identifier</key>
 				<string>MeEmploymentCell</string>
-				<key>Title</key>
-				<string>02/2012 08/2011</string>
-				<key>Detail</key>
-				<string>Renderspace d.o.o.\nWeb developer</string>
+				<key>Date1</key>
+				<string>12/2014</string>
+				<key>Date2</key>
+				<string>Now</string>
+				<key>Company</key>
+				<string>erento GmbH</string>
+				<key>Position</key>
+				<string>Lead mobile developer</string>
+			</dict>
+			<dict>
+				<key>Identifier</key>
+				<string>MeEmploymentCell</string>
+				<key>Date1</key>
+				<string>02/2012</string>
+				<key>Date2</key>
+				<string>08/2011</string>
+				<key>Company</key>
+				<string>Renderspace d.o.o.</string>
+				<key>Position</key>
+				<string>Web developer</string>
 			</dict>
 		</array>
 		<key>Title</key>

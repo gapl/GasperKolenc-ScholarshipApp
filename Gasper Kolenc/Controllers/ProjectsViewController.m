@@ -72,7 +72,7 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
 {
-    return _headerView.frame.size.height;
+    return [UIScreen mainScreen].bounds.size.height > 568.0 ? 120.0 : _headerView.frame.size.height;
 }
 
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section

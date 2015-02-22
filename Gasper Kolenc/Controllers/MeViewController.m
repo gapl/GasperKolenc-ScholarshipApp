@@ -48,7 +48,7 @@
     
     NSString *sectionTitle = [[self.dataArray objectAtIndex:indexPath.section] objectForKey:@"Title"];
     if ([sectionTitle isEqualToString:@"Summary"])
-        return 200.0;
+        return [UIScreen mainScreen].bounds.size.height > 568.0 ? 186.0 : 200.0;
     
     return 44.0;
 }
@@ -116,6 +116,12 @@
         if ([[cellDict objectForKey:@"Title"] isEqualToString:@"Email"] ||
             ([[cellDict objectForKey:@"Title"] isEqualToString:@"Phone"] && [[UIApplication sharedApplication] canOpenURL:callURL]))
             cell.selectionStyle = UITableViewCellSelectionStyleDefault;
+    }
+    
+    else if ([cellIdentifier isEqualToString:@"MeEmploymentCell"]) {
+        ((MeDetailCell *)cell).titleLabel.text = [NSString stringWithFormat:@"%@\n%@", [cellDict objectForKey:@"Date1"], [cellDict objectForKey:@"Date2"]];
+        ((UILabel *)[cell viewWithTag:1]).text = [cellDict objectForKey:@"Company"];
+        ((UILabel *)[cell viewWithTag:2]).text = [cellDict objectForKey:@"Position"];
     }
     
     return cell;
